@@ -1,3 +1,9 @@
+* {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+}
+
 .app {
   display: flex;
   flex-direction: column;
@@ -7,6 +13,14 @@
   height: 1308px;
   background: #000000;
   border-radius: 20px;
+}
+
+.counter {
+  width: 305px;
+  height: 152px;
+  font-size: 130px;
+  line-height: 152px;
+  color: #FFFFFF;
 }
 
 h1 {

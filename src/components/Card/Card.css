@@ -16,6 +16,10 @@
   line-height: 14px;
 }
 
+.card_red {
+  background: #BA0606;
+}
+
 .card__title {
   position: relative;
   top: 8px;
@@ -38,8 +42,11 @@
   background: rgba(255, 245, 0, 0.9);
   border-radius: 5px;
   font-size: 12px;
+  line-height: 14px;
   color: #000000;
-  border: 1px solid #000000;
   box-sizing: border-box;
   z-index: 1000;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
